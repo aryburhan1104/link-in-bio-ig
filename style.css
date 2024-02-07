@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #29174a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Outfit', Sans-Serif;
+    padding-top: 4rem;
+    gap: 1rem;
+}
+ .my-photo {
+    width: 10rem;
+    border-radius: 50%;
+ }
+
+ a {
+    text-decoration: none;
+    color: inherit;
+ }
+
+ .sosmed i {
+    font-size: 1.5rem;
+    color: #6d4fa4;
+ }
+ .sosmed a:not(:last-child) {
+    margin-right: 1rem;
+ }
